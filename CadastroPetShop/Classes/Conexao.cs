@@ -20,7 +20,7 @@ public class ConexaoMySql
         }
         catch (Exception ex)
         {
-
+            throw new Exception(ex.Message);
         }
         finally 
         {
@@ -41,7 +41,7 @@ public class ConexaoMySql
         }
         catch (Exception ex)
         {
-
+            throw new Exception(ex.Message);
         }
         finally
         {
